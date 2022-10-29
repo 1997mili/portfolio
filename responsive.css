@@ -1,0 +1,55 @@
+@media (max-width:991px){
+    section{
+        padding: 30px;
+
+    }
+    h2{
+        font-size:larger ;
+    }
+    h3{
+        font-size: larger;
+    }
+    /* navbar */
+.header_wrapper .menu-navbar-nav{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 15px;
+
+}
+/* banner,1st section */
+.banner-wrapper{
+    padding: 200px 0px;
+}
+/* about */
+.about_wrapper ul.nav-pills{
+    width: 61%;
+    margin: auto;
+}
+/* portfolio */
+.portfolio_wrapper .card{
+    min-height: 500px;
+}
+}
+/* mobile */
+@media(max-width: 767px){
+    h1{
+        font-size: x-large;
+    }
+    h2{
+        font-size: larger;
+    }
+    p{
+        font-size: small;
+    }
+    /* about */
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0ch;
+    }
+    .about_wrapper ul li .nav-link{
+       font-size: smaller;
+
+    }
+    
+}
